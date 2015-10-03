@@ -4,4 +4,4 @@
 
 En esta práctica hemos creado con JavaScript un Conversor de Temperatura entre grados Farenheit y Celsius.
 
-Práctica realizada por Carlota Lázaro Hernández.
+Práctica realizada por Carlota Lázaro Hernández. 
