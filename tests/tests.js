@@ -16,4 +16,15 @@ suite('temperature', function() {
         calculate();
         assert.match(converted.innerHTML, /ERROR/);
     });
+    test('80C != 190 Farenheit', function() {
+        original.value = "80C";
+        calculate();
+        assert.notEqual(converted.innerHTML, "190 Farenheit");
+    });
+    test('18.333333333333332C < 99F', function() {
+        original.value = "18.333333333333332 Celsius";
+        calculate();
+        assert.isAbove(converted.innerHTML, "99F" );
+    })
+    
 });
