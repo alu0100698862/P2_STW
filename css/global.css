@@ -1,0 +1,19 @@
+
+html { 
+  background: url(../images/imagen.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.recuadro {
+ color: #FFF;
+ margin-left: 10%;
+ margin-top: 10%;
+}
+
+.recuadro input {
+ color: #000;
+}

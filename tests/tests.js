@@ -25,6 +25,5 @@ suite('temperature', function() {
         original.value = "18.333333333333332 Celsius";
         calculate();
         assert.isAbove(converted.innerHTML, "99F" );
-    })
-    
+    });
 });
